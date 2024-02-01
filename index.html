@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Christian | Morgannae</title>
+    <link href="src/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="font-bold text-lg text-primary block py-6">morgannae</a>
+          </div>
+          <div class="flex items-center px-4">
+            <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+              <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+            </button>
+
+            <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Home</a>
+                </li>
+                <li class="group">
+                  <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">About</a>
+                </li>
+                <li class="group">
+                  <a href="#projects" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Projects</a>
+                </li>
+                <li class="group">
+                  <a href="#skills" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Skills</a>
+                </li>
+                <li class="group">
+                  <a href="#resume" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Resume</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Navbar End -->
+
+    <!-- Hero Section Start -->
+    <section id="home" class="pt-36">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="text-xl font-semibold text-dark lg:text-5xl">Hi,I'm <span class="font-bold text-primary text-4xl mt-1 lg:text-5xl">Christian</span></h1>
+            <h2 class="text-xl font-semibold text-gray-500 lg:text-5xl">Fullstack Web Developer</h2>
+            <p class="font-medium text-secondary mb-10 leading-relaxed">I'm focused on building responsive front-end web applications integrating with high performance back-end technologies.</p>
+
+            <div class="flex items-center">
+              <!-- Linkedin -->
+              <a href="" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center text-slate-700 hover:border-primary hover:bg-primary hover:text-white">
+                <svg role="img" width="20" height="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>LinkedIn</title>
+                  <path
+                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                  />
+                </svg>
+              </a>
+
+              <a href="" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center text-slate-700 hover:border-primary hover:bg-primary hover:text-white">
+                <svg role="img" width="20" height="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>GitHub</title>
+                  <path
+                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                  />
+                </svg>
+              </a>
+
+              <a href="" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center text-slate-700 hover:border-primary hover:bg-primary hover:text-white">
+                <svg role="img" width="20" height="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>Gmail</title>
+                  <path
+                    d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"
+                  />
+                </svg>
+              </a>
+
+              <a href="#" class="text-base font-semibold text-slate700 bg-primary py-3 px-8 rounded-full hover:opacity-80 transition duration-300 ease-in-out">Resume</a>
+            </div>
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="relative mt-10 lg:mt-0 right-0">
+              <img src="./img/pasfoto-2.1.png" alt="Christian Nainggolan" class="max-w-full mx-auto" />
+              <span class="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2 md:scale-100">
+                <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill="#3b82f6"
+                    d="M20.4,-42.4C24.5,-32.9,24.7,-23.6,36.7,-16.6C48.8,-9.6,72.7,-4.8,73.5,0.5C74.3,5.7,52,11.4,42,22.1C32.1,32.8,34.5,48.4,29.6,60.1C24.7,71.8,12.3,79.5,-1.8,82.6C-16,85.8,-32,84.4,-43.8,76.7C-55.6,69,-63.1,54.9,-63,41.1C-62.8,27.2,-54.9,13.6,-55.6,-0.4C-56.2,-14.3,-65.3,-28.6,-60.2,-33.4C-55.1,-38.1,-35.8,-33.3,-23.4,-38C-11,-42.8,-5.5,-57,1.3,-59.3C8.1,-61.6,16.2,-51.9,20.4,-42.4Z"
+                    transform="translate(100 100) scale(1.3)"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="pt-36 pb-32">
+      <div class="container">
+        <div class="w-full gap-8 justify-between flex flex-wrap md:gap-10">
+          <div class="flex max-w-[380px] w-fit h-fit shadow-xl shadow-gray-400 rounded-xl p-4 lg:w-1/2">
+            <img class="rounded-xl h-full w-auto object-contain" src="./img/aboutporto.png" alt="" />
+          </div>
+          <div class="w-full flex-grow justify-items-start px-4 lg:w-1/2">
+            <h4 class="font-bold uppercase text-primary text-xl mb-3">About Me</h4>
+            <h3 class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10">Who am i?</h3>
+            <p class="font-medium text-base text-secondary mb-6 lg:text-lg">
+              I started to be interested in programming since the last semester of vocational school, and after graduating I took part in the Fullstack Immersive Javascript bootcamp to start my career as a Fullstack Web Developer.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Project Section Start -->
+    <section id="projects" class="pt-36 pb-16 bg-slate-100">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg text-primary mb-2">Morgannae</h4>
+            <h2 class="font-bold text-dark text-3xl mb-4">List of Projects</h2>
+            <p class="font-medium text-md text-secondary">Contains all the projects I have worked on and the projects I am currently working on, when you press the project image you will be directed to the project's GitHub repository</p>
+          </div>
+        </div>
+
+        <div class="w-full px-4 flex flex-wrap justify-center">
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img src="./img/Screenshot 2024-02-01 114934.png" alt="kafka1" width="w-full" />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Test</h3>
+            <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique obcaecati expedita, omnis distinctio ad natus.</p>
+          </div>
+
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-xl overflow-hidden">
+              <img src="./img/Screenshot 2024-01-15 110510.png" alt="kafka2" width="w-full" />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Test</h3>
+            <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique obcaecati expedita, omnis distinctio ad natus.</p>
+          </div>
+
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img src="./img/Screenshot 2024-01-15 112031.png" alt="kafka3" width="w-full" />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Test</h3>
+            <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique obcaecati expedita, omnis distinctio ad natus.</p>
+          </div>
+
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img src="./img/porto.png" alt="kafka3" width="w-full" />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Test</h3>
+            <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique obcaecati expedita, omnis distinctio ad natus.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Section End -->
+
+    <!-- Skill Section Start -->
+    <section id="skills" class="bg-slate-700 pt-36 pb-32 dark:bg-slate-200">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="mx-auto mb-16 text-center">
+            <h4 class="mb-2 text-lg font-semibold text-primary">Skills</h4>
+            <h2 class="mb-4 text-3xl font-bold text-white dark:text-dark sm:text-4xl lg:text-5xl">List of My Skills:</h2>
+            <p class="text-md font-medium text-secondary md:text-lg"></p>
+          </div>
+        </div>
+
+        <div class="w-full px-4">
+          <div class="flex flex-wrap items-center justify-center">
+            <a href="" class="mx-4 max-w-[120px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8">
+              <img src="./img/logo/html5.png" alt="Google" />
+            </a>
+
+            <a href="#" class="mx-4 max-w-[120px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8">
+              <img src="./img/logo/cssy.png" alt="Google" />
+            </a>
+
+            <a href="#" class="mx-4 max-w-[120px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8">
+              <img src="./img/logo/js.png" alt="Google" />
+            </a>
+
+            <a href="#" class="mx-4 max-w-[120px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8">
+              <img src="./img/logo/ts.png" alt="Google" />
+            </a>
+
+            <a href="#" class="mx-4 max-w-[120px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8">
+              <img src="./img/logo/git.png" alt="Google" />
+            </a>
+
+            <a href="#" class="mx-4 max-w-[120px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8">
+              <img src="./img/logo/sequelizejs.png" alt="Google" />
+            </a>
+
+            <a href="#" class="mx-4 max-w-[120px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8">
+              <img src="./img/logo/postgre.png" alt="Google" />
+            </a>
+
+            <a href="#" class="mx-4 max-w-[120px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8">
+              <img src="./img/logo/mongodb2.png" alt="Google" />
+            </a>
+
+            <a href="#" class="mx-4 max-w-[120px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8">
+              <img src="./img/logo/graphql.png" alt="Google" />
+            </a>
+
+            <a href="#" class="mx-4 max-w-[120px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8">
+              <img src="./img/logo/apollo1.png" alt="Google" />
+            </a>
+
+            <a href="#" class="mx-4 max-w-[120px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8">
+              <img src="./img/logo/reactjs.png" alt="Google" />
+            </a>
+
+            <a href="#" class="mx-4 max-w-[120px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8">
+              <img src="./img/logo/nextjs1.png" alt="Google" />
+            </a>
+
+            <a href="#" class="mx-4 max-w-[120px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8">
+              <img src="./img/logo/tailwind.png" alt="Google" />
+            </a>
+
+            <a href="#" class="mx-4 max-w-[120px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8">
+              <img src="./img/logo/bootstrap.png" alt="Google" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skill Section End -->
+
+    <script src="./src/script.js"></script>
+  </body>
+</html>
